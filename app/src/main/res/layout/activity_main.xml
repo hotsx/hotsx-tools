@@ -12,7 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:currentColor="#00E5EE"
+        app:layout_constraintTop_toTopOf="parent"
+        app:ringColor="#BBFFFF"
+        app:textColor="#00E5EE" />
 
     <Button
         android:id="@+id/addBtn"
