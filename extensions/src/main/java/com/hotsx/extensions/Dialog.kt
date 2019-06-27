@@ -16,8 +16,6 @@ class DialogConfig {
     @StringRes
     var messageId: Int? = null
     var message: String? = null
-
-
 }
 
 fun Activity.alart() {
