@@ -1,1 +1,1 @@
-include ':app', ':recycler', ':extensions'
+include ':app', ':recycler', ':extensions', ':ringview'
