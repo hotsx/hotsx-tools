@@ -4,6 +4,7 @@ import android.animation.ValueAnimator
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
+import android.view.MotionEvent
 import android.view.View
 import kotlin.math.min
 
@@ -41,7 +42,6 @@ class RingView @JvmOverloads constructor(context: Context, attrs: AttributeSet? 
     override fun onDraw(canvas: Canvas) {
         val center = width / 2f//圆心点
         val radius = center - ringWidth / 2//圆环半径
-
         //画圆环底色
         paint.isAntiAlias = true
         paint.color = ringColor
